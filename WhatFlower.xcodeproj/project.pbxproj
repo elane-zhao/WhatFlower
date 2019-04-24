@@ -12,6 +12,7 @@
 		AE3A188A2270301300E02BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A18882270301300E02BF2 /* Main.storyboard */; };
 		AE3A188C2270301400E02BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A188B2270301400E02BF2 /* Assets.xcassets */; };
 		AE3A188F2270301400E02BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A188D2270301400E02BF2 /* LaunchScreen.storyboard */; };
+		AE3A1897227032A200E02BF2 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE3A1896227032A200E02BF2 /* FlowerClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AE3A188B2270301400E02BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3A188E2270301400E02BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A18902270301400E02BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3A1896227032A200E02BF2 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AE3A18882270301300E02BF2 /* Main.storyboard */,
 				AE3A188B2270301400E02BF2 /* Assets.xcassets */,
 				AE3A188D2270301400E02BF2 /* LaunchScreen.storyboard */,
+				AE3A1896227032A200E02BF2 /* FlowerClassifier.mlmodel */,
 				AE3A18902270301400E02BF2 /* Info.plist */,
 			);
 			path = WhatFlower;
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3A1897227032A200E02BF2 /* FlowerClassifier.mlmodel in Sources */,
 				AE3A18872270301300E02BF2 /* ViewController.swift in Sources */,
 				AE3A18852270301300E02BF2 /* AppDelegate.swift in Sources */,
 			);
